@@ -20,9 +20,6 @@ function Navigation() {
 				<Link to="/galerie">Galerie</Link>
 			</button>
 			<button>
-				<Link to="/mignonneries">Mignonneries</Link>
-			</button>
-			<button>
 				<Link to="/bonus">Bonus</Link>
 			</button>
 			<button>

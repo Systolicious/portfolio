@@ -7,7 +7,7 @@ import Contact from "./components/pages/contact";
 import Cv from "./components/pages/cv";
 import Galerie from "./components/pages/galerie";
 import Mignonneries from "./components/pages/mignonneries";
-import Photos from "./components/pages/photos";
+import Art from "./components/pages/art";
 import Vanites from "./components/pages/vanites";
 
 export const router = createBrowserRouter([
@@ -43,8 +43,8 @@ export const router = createBrowserRouter([
 		errorElement: <Erreur />,
 	},
 	{
-		path: "/photos",
-		element: <Photos />,
+		path: "/art",
+		element: <Art />,
 		errorElement: <Erreur />,
 	},
 	{

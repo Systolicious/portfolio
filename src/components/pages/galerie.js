@@ -6,6 +6,7 @@ function Galerie() {
 	return (
 		<div>
 			<Navigation />
+
 			<Footer />
 		</div>
 	);

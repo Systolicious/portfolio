@@ -8,6 +8,11 @@ function Home() {
 			<Navigation />
 			<h1>Bienvenue dans mon univers!</h1>
 			<h4>Photographe, peintre, artiste toujours en quête de nouveauté.</h4>
+			<p>
+				J'aime organiser le chaos au millimètre près et construire une ambiance,
+				mais pour cela il faut bien comprendre ses outils, la lumière, les
+				couleurs, et pratiquer.
+			</p>
 			<p>Mes créations sont divisées en 2 styles:</p>
 			<ul>
 				<li>
@@ -16,11 +21,7 @@ function Home() {
 				</li>
 				<li>Où j'utilise mes connaissances pour bâtir un univers précis</li>
 			</ul>
-			<p>
-				J'aime organiser le chaos au millimètre près et construire une ambiance,
-				mais pour cela il faut bien comprendre ses outils, la lumière, les
-				couleurs, et pratiquer.
-			</p>
+			<h4>Philosophie</h4>
 			<p>
 				Sous mes faux airs de déesse païenne, je suis restée quelqu’un de très
 				humble : en guise d'autel, un petit coin de studio où les objets se
