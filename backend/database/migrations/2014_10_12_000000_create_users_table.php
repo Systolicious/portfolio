@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+            $table->integer('age')->default(12);
+            $table->unsignedBigInteger('question_id');
         });
     }
 
