@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../navigation/navigation";
 import Footer from "../navigation/footer";
 import Erreur from "../navigation/erreur";
-function Mignonneries() {
+function Portraits() {
 	return (
 		<div>
 			<Navigation />
@@ -10,4 +10,4 @@ function Mignonneries() {
 		</div>
 	);
 }
-export default Mignonneries;
+export default Portraits;

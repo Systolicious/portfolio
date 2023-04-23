@@ -12,12 +12,24 @@ function Navigation() {
 			<h1>Flore Sakowski</h1>
 			<button>
 				<Link to="/">Accueil</Link>
+			</button>			
+			<button>
+				<Link to="/fleurs">Fleurs</Link>
 			</button>
 			<button>
-				<Link to="/cv">CV</Link>
+				<Link to="/champignons">Champignons</Link>
 			</button>
 			<button>
-				<Link to="/galerie">Galerie</Link>
+				<Link to="/etoiles">Etoiles</Link>
+			</button>
+			<button>
+				<Link to="/portraits">Portraits</Link>
+			</button>
+			<button>
+				<Link to="/vanites">Vanités</Link>
+			</button>
+			<button>
+				<Link to="/art">Art</Link>
 			</button>
 			<button>
 				<Link to="/bonus">Bonus</Link>
