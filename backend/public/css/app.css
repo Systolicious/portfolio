@@ -1,0 +1,41 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: url(/frontend/public/fonts/CaviarDreams.woff);
+}
+
+* {
+    margin: 0;
+    font-family: CaviarDreams, sans-serif;
+}
+
+.headerLeft {
+    display: flex;
+    background-color: rgb(63, 131, 220);
+    color: white;
+    align-content: center;
+}
+.headerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titre {
+    max-height: 10vh;
+}
+.logo {
+    max-width: 10vw;
+}
+.sstitre {
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 600px) {
+    .titre {
+        max-width: 70vw;
+    }
+    .logo {
+        max-height: 10vh;
+    }
+    .sstitre {
+        font-size: 1rem;
+    }
+}

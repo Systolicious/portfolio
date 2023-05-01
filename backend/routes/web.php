@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// authentification : show the connection page
+
+Route::get('/login', [AuthController::class, 'showLogin'])->name('auth.login.show');
+Route::post('/login', [AuthController::class, 'processLogin'])->name('auth.login.process');
