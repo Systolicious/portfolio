@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Roligt";
+	src: url("../fonts/Roligt.woff");
+}
+
+.logo {
+	size-adjust: 150px;
+}
+.titre {
+	font-family: "Roligt", sans-serif;
+	color: salmon;
+	font-size: 2rem;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+.sousTitre {
+	margin-top: 5px;
+	color: darkslategray;
+}
+.logoTitles {
+	display: flex;
+	background-color: white;
+}
+.titles {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}

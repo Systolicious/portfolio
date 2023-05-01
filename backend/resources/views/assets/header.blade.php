@@ -4,7 +4,6 @@
     </div>
     <div class="headerTitle">
         <img src="{{ asset('images/titre.png') }}" alt="titre" class="titre">
-        <p class="sstitre">La mamarazzi qui vous sort de l'ombre!</p>
     </div>
     <nav>
 

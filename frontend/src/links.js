@@ -4,9 +4,10 @@ import Erreur from "./components/navigation/erreur";
 import Home from "./components/pages/home";
 import Bonus from "./components/pages/bonus";
 import Contact from "./components/pages/contact";
-import Cv from "./components/pages/cv";
-import Galerie from "./components/pages/galerie";
-import Mignonneries from "./components/pages/mignonneries";
+import Champignons from "./components/pages/champignons";
+import Etoiles from "./components/pages/etoiles";
+import Fleurs from "./components/pages/fleurs";
+import Portraits from "./components/pages/portraits";
 import Art from "./components/pages/art";
 import Vanites from "./components/pages/vanites";
 
@@ -17,8 +18,18 @@ export const router = createBrowserRouter([
 		errorElement: <Erreur />,
 	},
 	{
+		path: "/art",
+		element: <Art />,
+		errorElement: <Erreur />,
+	},
+	{
 		path: "/bonus",
 		element: <Bonus />,
+		errorElement: <Erreur />,
+	},
+	{
+		path: "/champignons",
+		element: <Champignons />,
 		errorElement: <Erreur />,
 	},
 	{
@@ -26,25 +37,19 @@ export const router = createBrowserRouter([
 		element: <Contact />,
 		errorElement: <Erreur />,
 	},
-
 	{
-		path: "/cv",
-		element: <Cv />,
+		path: "/etoiles",
+		element: <Etoiles />,
 		errorElement: <Erreur />,
 	},
 	{
-		path: "/galerie",
-		element: <Galerie />,
+		path: "/fleurs",
+		element: <Fleurs />,
 		errorElement: <Erreur />,
 	},
 	{
-		path: "/mignonneries",
-		element: <Mignonneries />,
-		errorElement: <Erreur />,
-	},
-	{
-		path: "/art",
-		element: <Art />,
+		path: "/portraits",
+		element: <Portraits />,
 		errorElement: <Erreur />,
 	},
 	{
